@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1 id="city-name">Tên thành phố: </h1>
+    <h2 id="country-name">Quốc gia: </h2>
+    <h3 id="min-temp">Nhiệt độ thấp nhất (C): </h3>
+    <h3 id="max-temp">Nhiệt độ cao nhất (C): </h3>
+    <h3 id="pleasure">Áp suất: </h3>
+    <h3 id="humidity">Độ ẩm: </h3>
+
+    <script type="text/javascript">
+        let weather_forecast = {
+            name: "HaNoi",
+            country: "VietNam",
+
+            temperature : {
+                min: 28,
+                max: 38,
+            },
+
+            pleasure: "none",
+
+            humidity: "47%",
+        };
+
+        let h1 = document.getElementById("city-name");
+        h1.innerText = h1.innerText + weather_forecast.name;
+        let h2 = document.getElementById("country-name");
+        h2.innerText = h2.innerText + weather_forecast.country;
+        let h3_s1 = document.getElementById("min-temp");
+        h3_s1.innerText = h3_s1.innerText + weather_forecast.temperature.min;
+        let h3_s2 = document.getElementById("max-temp");
+        h3_s2.innerText = h3_s2.innerText + weather_forecast.temperature.max;
+        let h3_s3 = document.getElementById("pleasure");
+        h3_s3.innerText = h3_s3.innerText + weather_forecast.pleasure;
+        let h3_s4 = document.getElementById("humidity");
+        h3_s4.innerText = h3_s4.innerText + weather_forecast.humidity;
+
+    </script>
+</body>
+</html>
