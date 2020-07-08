@@ -1,0 +1,20 @@
+h3{
+    color: red;
+}
+
+p{
+
+}
+
+body{
+    margin-top: 20px;
+    margin-left:20%;
+    margin-right: 20%;
+}
+
+div{
+    display: flex;
+    justify-content: space-between ;
+
+
+}

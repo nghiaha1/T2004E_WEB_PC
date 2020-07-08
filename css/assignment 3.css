@@ -1,0 +1,71 @@
+body{
+    background-color: #5a6268;
+    width: 100%;
+}
+
+.red-box{
+    background-color: #ac4242;
+    width: 70%;
+    margin: 5px;
+    float: left;
+}
+.quote{
+    font-size: 20px;
+    padding: 5px 10px 7px 20px;
+}
+.author{
+    font-size: 13px;
+    padding: 5px 10px 7px 20px;
+}
+.gallery{
+    background-color: #f6e5e5;
+    width: 70%;
+    margin: 5px;
+    float: left;
+    position: relative;
+    top: -240px;
+}
+.name{
+    font-size: 30px;
+    font-weight: 200;
+    padding: 0 20px 0 20px;
+}
+.content{
+    padding: 0 20px 0 20px;
+}
+.read-more{
+    background-color: #e73737;
+    width: 100px;
+    height: 30px;
+    left: 20px;
+    bottom: 10px;
+    margin: 20px auto 30px 20px;
+}
+.read-more p{
+    font-size: 13px;
+    padding: 10px;
+}
+.recent-post {
+    width: 25%;
+    float: left;
+    position: relative;
+    background-color: #f6e5e5;
+    margin: 5px;
+    padding: 0 20px;
+}
+.recent-post img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+}
+.recent-post-p{
+    font-size: 20px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+#categories{
+    float: left;
+    position: relative;
+    top: -200px;
+}
